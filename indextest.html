@@ -22,7 +22,6 @@
           <h2>Shopping Bag</h2>
           <div class="cart-wrapper">
           </div>
-          <div class="view-cart">Empty basket</div>
           <div class="checkout">Checkout</div>
           <div class="view-cart">View Cart</div>
         </div>
@@ -31,8 +30,8 @@
 
     <section class="shop-section">
       <div class="card-wrapper">
-        <div data-id="1" class="card-item">
-          <img src="CBD.jpg" />
+        <div data-id="1" class="card-item imageCS">
+          <img src="CBD.jpg" class="imageCS" />
           <div class="details">
             <h3>CBD OIL</h3>
             <p>
@@ -42,8 +41,8 @@
           </div>
         </div>
         <!-- item 2 -->
-        <div data-id="2" class="card-item">
-          <img src="THC.jpg" />
+        <div data-id="2" class="card-item imageCS">
+          <img src="THC.jpg" class="imageCS"/>
           <div class="details">
             <h3>THC OIL</h3>
             <p>
@@ -67,6 +66,10 @@
               </form> 
           </div>
 
-    <script src="shoppingcart.js"></script>
+          <div id="preloader"></div>
+
+        <script src="preloader.js"></script>
+        <script src="shoppingcart.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </body>
 </html>
